@@ -1,0 +1,44 @@
+/* src/js/LoginForm.css */
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 22px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #caa5a5;
+  }
+  
+  .form-group {
+    margin-bottom: 100px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 9px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #0c0b0b;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #3f3232;
+    border: 1px solid #0c0b0b;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #815858;
+  }
+  #form{
+    padding-top: 3%;
+  }

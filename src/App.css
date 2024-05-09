@@ -1,0 +1,36 @@
+/* #main {
+  width: 100vw;
+  height: 200vh;
+}
+#main_fundal {
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-color: rgb(87, 72, 53);
+}
+#text1 {
+  top: 70%;
+  color:#ffff;
+  margin: 0 auto;
+  position: relative;
+  font-size: 200%;
+  font-weight: 40px;
+  text-align: left;
+  bottom: 70%;
+}
+#s1
+{
+  width:50%;
+  height:10%;
+  display: block;
+  position: relative;
+  background-color:rgb(181, 193, 142);
+} */
+.background
+{
+  position: absolute;
+  background-color: rgba(197, 178, 178, 0.479);
+  width: 100vw;
+  height: 102vh;
+  display: block;
+}

@@ -1,0 +1,111 @@
+/* src/css/Navbar.css */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.navbar {
+  height: 90px;
+  background-color: rgba(78, 117, 113, 0.856);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+  opacity: 0.71;
+}
+
+.navbar .logo i {
+  color: #638da5;
+  font-size: 22px;
+}
+
+.navbar .logo a {
+  font-size: 24px;
+  font-weight: 700;
+  color:  #ffffff;
+  margin-left: 0px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.menu-links {
+  display: flex;
+  gap: 24px;
+  border-right: 1px solid #ffffff;
+  padding-inline: 12px;
+}
+
+.menu-links a {
+  font-weight: 500;
+  color: #fff;
+  padding: 8px 16px;
+}
+.menu-links a:hover {
+  color:  #3f3232;
+}
+.log-in {
+  font-weight: 500;
+  padding: 12px 22px;
+  background-color: transparent;
+  color:  #ffffff;
+  border-radius: 10px;
+  border: 2px solid  #3f3232;
+  transition: 0.2s;
+  margin-left: 25px ;
+}
+.log-in:hover {
+  background-color:  #3f3232;
+  color: white;
+}
+
+.menu-btn {
+  font-size: 32px;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 53rem) {
+  .menu {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
+.caca
+{ 
+  display: flex;
+  position: relative;
+}
+#poza
+{
+  width:8%;
+  height:8%;
+  margin-bottom: 2px;
+}
+#title
+{
+  margin-top: 10%;
+}

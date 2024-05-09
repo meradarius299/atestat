@@ -1,0 +1,147 @@
+/* src/css/Login.css */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+@keyframes rotate {
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.control {
+  border: 0;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  background: #edecee;
+  border: 2px solid  #3f3232ab; 
+  color: #3f3232;
+  font-family: inherit;
+  font-size: 16px;
+  transition: 0.4s;
+}
+
+button.control{
+  cursor: pointer;
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  background-color: #857272da;
+  opacity: 0.96;
+  color: #f3f3f3;
+  border: 0;
+  border-radius: 10px;
+  border: 2px solid  #3f3232; 
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 2px;
+  transition:  0.375s;
+}
+
+button.control:hover{
+  background-color:  #3f3232;
+  color: white;
+}
+
+.login-card {
+  width: 400px;
+  height: 500px;
+  padding: 100px 30px 64px;
+  border-radius: 1.25rem;
+  background:rgba(255, 255, 255, 0.329);
+  opacity: 0.88;
+  border: 2px solid  #746464;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.login-card > h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.login-card > h3 {
+  color: #3f3232;
+  margin: 0  40px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.login-form {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 120px;
+  display: grid;
+  gap: 16px;
+}
+
+.login-form input.control::placeholder {
+  color: #3f3232;
+}
+.password {
+  position: relative;
+}
+
+.toggle {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  translate: 0 -50%;
+  width: 30px;
+  height: 30px;
+  background-image: url("../poze/hide.svg");
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.showing {
+  background-image: url("../poze/show.svg");
+}
+ 
+#nuj
+{
+  color:#ffff;
+}
+
+#log{
+  margin-bottom: 20px;
+  color:#3f3232;
+}
+#text{
+  margin-bottom: 40px;
+}
+
+/* .login-form > button.control {
+  cursor: pointer;
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  background-color: rgb(166, 157, 224);
+  opacity: 0.96;
+  color: #f3f3f3;
+  border: 0;
+  border-radius: 10px;
+  border: 2px solid  #766da8; 
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 2px;
+  transition:  0.375s;
+}
+.login-form:hover > button.control{
+  background-color:  #766da8;
+  color: white;
+} */
+
