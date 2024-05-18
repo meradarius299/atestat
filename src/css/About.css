@@ -7,12 +7,13 @@
     display: grid;
     width: fit-content;
     height: fit-content;
-    padding: 5% 0  0 605px;
+    padding: 2% 0  0 535px;
+    font-size: 120%;
   }
 .main2
 {
   width: 100vw;
-  height: calc(100vh - 90px - 93px);
+  height: 90vh;
   display: block;
   position: relative;
 }

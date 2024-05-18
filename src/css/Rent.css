@@ -1,0 +1,10 @@
+/* src/css/Rent.css */
+.text1 {
+  color: #3f3232;
+  text-align: center;
+  position: relative;
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  padding: 7% 0 0 37%;
+}

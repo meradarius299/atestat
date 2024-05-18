@@ -1,10 +1,10 @@
 // src/js/Footer.js
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
-    <footer >
-      <p>&copy; 2024 Trivado. All rights reserved.</p>
+    <footer>
+      <p>&copy; 2024 Trivado. Toate drepturile sunt rezervate.</p>
     </footer>
   );
 }

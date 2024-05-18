@@ -21,14 +21,14 @@ button {
   height: 56px;
   padding: 0 16px;
   background: #edecee;
-  border: 2px solid  #3f3232ab; 
+  border: 2px solid #3f3232ab;
   color: #3f3232;
   font-family: inherit;
   font-size: 16px;
   transition: 0.4s;
 }
 
-button.control{
+button.control {
   cursor: pointer;
   width: 100%;
   height: 56px;
@@ -38,17 +38,17 @@ button.control{
   color: #f3f3f3;
   border: 0;
   border-radius: 10px;
-  border: 2px solid  #3f3232; 
+  border: 2px solid #3f3232;
   font-family: inherit;
   font-size: 1rem;
   font-weight: 500;
   text-align: center;
   letter-spacing: 2px;
-  transition:  0.375s;
+  transition: 0.375s;
 }
 
-button.control:hover{
-  background-color:  #3f3232;
+button.control:hover {
+  background-color: #3f3232;
   color: white;
 }
 
@@ -57,9 +57,10 @@ button.control:hover{
   height: 500px;
   padding: 100px 30px 64px;
   border-radius: 1.25rem;
-  background:rgba(255, 255, 255, 0.329);
-  opacity: 0.88;
-  border: 2px solid  #746464;
+  background: rgba(255, 255, 255, 0.329);
+  opacity: 0.98;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.39);
+  border: 2px solid #746464;
   text-align: center;
   margin: 100px auto;
 }
@@ -72,7 +73,7 @@ button.control:hover{
 
 .login-card > h3 {
   color: #3f3232;
-  margin: 0  40px;
+  margin: 0 40px;
   font-weight: 500;
   font-size: 1rem;
 }
@@ -86,7 +87,7 @@ button.control:hover{
 }
 
 .login-form input.control::placeholder {
-  color: #3f3232;
+  color: #5c4141;
 }
 .password {
   position: relative;
@@ -108,17 +109,16 @@ button.control:hover{
 .showing {
   background-image: url("../poze/show.svg");
 }
- 
-#nuj
-{
-  color:#ffff;
+
+#nuj {
+  color: #ffff;
 }
 
-#log{
+#log {
   margin-bottom: 20px;
-  color:#3f3232;
+  color: #3f3232;
 }
-#text{
+#text {
   margin-bottom: 40px;
 }
 
@@ -144,4 +144,3 @@ button.control:hover{
   background-color:  #766da8;
   color: white;
 } */
-

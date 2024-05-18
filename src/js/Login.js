@@ -7,7 +7,7 @@ const togglePassword = () => {
   temp[0].classList.toggle("showing");
   const input = document.getElementById("password");
   input.type = input.type === "password" ? "text" : "password";
-};  
+};
 
 const Login = () => {
   return (
@@ -39,7 +39,9 @@ const Login = () => {
           <a id="nuj" type="button">LOGIN</a>
         </button> */}
         <NavLink to="/">
-          <button class="control" type="button">Login</button>
+          <button class="control" type="button">
+            Login
+          </button>
         </NavLink>
       </form>
     </div>

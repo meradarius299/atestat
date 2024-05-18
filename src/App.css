@@ -26,10 +26,9 @@
   position: relative;
   background-color:rgb(181, 193, 142);
 } */
-.background
-{
+.background {
   position: absolute;
-  background-color: rgba(197, 178, 178, 0.479);
+  background-color: rgba(112, 131, 131, 0.233);
   width: 100vw;
   height: 102vh;
   display: block;
