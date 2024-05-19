@@ -1,5 +1,10 @@
 // src/components/Buy.js
 import React from "react";
+import poza1 from "../poze/property-1.jpg";
+import poza2 from "../poze/property-2.jpg";
+import poza3 from "../poze/property-3.jpg";
+import poza4 from "../poze/property-4.png";
+import poza5 from "../poze/author.jpg";
 
 function Buy() {
   return (
@@ -16,14 +21,12 @@ function Buy() {
                 <figure class="card-banner">
                   <a href="#">
                     <img
-                      src=".src/poze/AP-H-B1-1600x1080.png"
+                      src={poza1}
                       alt="New Apartment Nice View"
                       class="w-100"
                     />
                   </a>
-
                   <div class="card-badge green">For Rent</div>
-
                   <div class="banner-actions">
                     <button class="banner-actions-btn">
                       <ion-icon name="location"></ion-icon>
@@ -89,11 +92,7 @@ function Buy() {
                 <div class="card-footer">
                   <div class="card-author">
                     <figure class="author-avatar">
-                      <img
-                        src=".src/poze/AP-H-B1-1600x1080.png"
-                        alt="William Seklo"
-                        class="w-100"
-                      />
+                      <img src={poza5} alt="William Seklo" class="w-100" />
                     </figure>
 
                     <div>
@@ -126,11 +125,7 @@ function Buy() {
               <div class="property-card">
                 <figure class="card-banner">
                   <a href="#">
-                    <img
-                      src=".src/poze/AP-H-B1-1600x1080.png"
-                      alt="Modern Apartments"
-                      class="w-100"
-                    />
+                    <img src={poza2} alt="Modern Apartments" class="w-100" />
                   </a>
 
                   <div class="card-badge orange">For Sales</div>
@@ -200,11 +195,7 @@ function Buy() {
                 <div class="card-footer">
                   <div class="card-author">
                     <figure class="author-avatar">
-                      <img
-                        src=".src/poze/AP-H-B1-1600x1080.pngg"
-                        alt="William Seklo"
-                        class="w-100"
-                      />
+                      <img src={poza5} alt="William Seklo" class="w-100" />
                     </figure>
 
                     <div>
@@ -238,7 +229,7 @@ function Buy() {
                 <figure class="card-banner">
                   <a href="#">
                     <img
-                      src=".src/poze/AP-H-B1-1600x1080.png"
+                      src={poza3}
                       alt="Comfortable Apartment"
                       class="w-100"
                     />
@@ -311,11 +302,7 @@ function Buy() {
                 <div class="card-footer">
                   <div class="card-author">
                     <figure class="author-avatar">
-                      <img
-                        src=".src/poze/AP-H-B1-1600x1080.png"
-                        alt="William Seklo"
-                        class="w-100"
-                      />
+                      <img src={poza5} alt="William Seklo" class="w-100" />
                     </figure>
 
                     <div>
@@ -349,7 +336,7 @@ function Buy() {
                 <figure class="card-banner">
                   <a href="#">
                     <img
-                      src=".src/poze/AP-H-B1-1600x1080.png"
+                      src={poza4}
                       alt="Luxury villa in Rego Park"
                       class="w-100"
                     />
@@ -422,11 +409,7 @@ function Buy() {
                 <div class="card-footer">
                   <div class="card-author">
                     <figure class="author-avatar">
-                      <img
-                        src=".src/poze/AP-H-B1-1600x1080.png"
-                        alt="William Seklo"
-                        class="w-100"
-                      />
+                      <img src={poza5} alt="William Seklo" class="w-100" />
                     </figure>
 
                     <div>

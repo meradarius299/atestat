@@ -47,11 +47,11 @@ const Contact = () => {
               </div>
               <div class="information">
                 <img src={poza3} class="icon" alt="" />
-                <p>+40 705840021</p>
+                <p>+40 75835101</p>
               </div>
             </div>
             <div class="social-media">
-              <p>Connect with us :</p>
+              <p>Urmariti-ne si pe:</p>
               <div class="social-icons">
                 <a href="#">
                   <i class="fab fa-facebook-f"></i>
