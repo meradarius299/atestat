@@ -1,9 +1,9 @@
 // src/components/Buy.js
 import React from "react";
-import poza1 from "../poze/property-1.jpg";
-import poza2 from "../poze/property-2.jpg";
-import poza3 from "../poze/property-3.jpg";
-import poza4 from "../poze/property-4.png";
+import poza1 from "../poze/SINT-7.jpg";
+import poza2 from "../poze/IONESCU-DM2.jpg";
+import poza3 from "../poze/CL-s1.jpg";
+import poza4 from "../poze/CR-CLUJ-1.jpg";
 import poza5 from "../poze/author.jpg";
 
 function Buy() {
@@ -11,9 +11,11 @@ function Buy() {
     <>
       <section class="property" id="property">
         <div class="containeras">
-          <p class="section-subtitle">Properties</p>
+          <p class="section-subtitle" />
 
-          <h2 class="h2 section-title">Featured Listings</h2>
+          <h2 class="h2 section-title">
+            Gasim cea mai buna locuinta pentru dumneavoastra!
+          </h2>
 
           <ul class="property-list has-scrollbar">
             <li>
@@ -26,65 +28,65 @@ function Buy() {
                       class="w-100"
                     />
                   </a>
-                  <div class="card-badge green">For Rent</div>
+                  <div class="card-badge orange">For sale</div>
                   <div class="banner-actions">
                     <button class="banner-actions-btn">
                       <ion-icon name="location"></ion-icon>
 
-                      <address>Belmont Gardens, Chicago</address>
+                      <address>Paris, Franta</address>
                     </button>
 
                     <button class="banner-actions-btn">
                       <ion-icon name="camera"></ion-icon>
 
-                      <span>4</span>
+                      <span></span>
                     </button>
 
                     <button class="banner-actions-btn">
                       <ion-icon name="film"></ion-icon>
 
-                      <span>2</span>
+                      <span></span>
                     </button>
                   </div>
                 </figure>
 
                 <div class="card-content">
                   <div class="card-price">
-                    <strong>$34,900</strong>/Month
+                    <strong>$223.900</strong>
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">New Apartment Nice View</a>
+                    <a href="#">Casa nou-nouta in partea de vest a frantei</a>
                   </h3>
 
                   <p class="card-text">
-                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly
-                    Renovated With New Wood
+                    Casa rezidentiala in noul park din sectorul de vest al
+                    Frantei.Perfect pentru lux si aroganta, familii numeroase.
                   </p>
 
                   <ul class="card-list">
                     <li class="card-item">
-                      <strong>3</strong>
+                      <strong>4</strong>
 
                       <ion-icon name="bed-outline"></ion-icon>
 
-                      <span>Bedrooms</span>
+                      <span> Dormitoare</span>
                     </li>
 
                     <li class="card-item">
-                      <strong>2</strong>
+                      <strong>2 </strong>
 
                       <ion-icon name="man-outline"></ion-icon>
 
-                      <span>Bathrooms</span>
+                      <span> Bai</span>
                     </li>
 
                     <li class="card-item">
-                      <strong>3450</strong>
+                      <strong> 1150</strong>
 
                       <ion-icon name="square-outline"></ion-icon>
 
-                      <span>Square Ft</span>
+                      <span> mp2</span>
                     </li>
                   </ul>
                 </div>
@@ -92,15 +94,15 @@ function Buy() {
                 <div class="card-footer">
                   <div class="card-author">
                     <figure class="author-avatar">
-                      <img src={poza5} alt="William Seklo" class="w-100" />
+                      <img src={poza5} alt="Popovici David" class="w-100" />
                     </figure>
 
                     <div>
                       <p class="author-name">
-                        <a href="#">William Seklo</a>
+                        <a href="#">Popovici David</a>
                       </p>
 
-                      <p class="author-title">Estate Agents</p>
+                      <p class="author-title">Agent de vanzari</p>
                     </div>
                   </div>
 
@@ -128,66 +130,66 @@ function Buy() {
                     <img src={poza2} alt="Modern Apartments" class="w-100" />
                   </a>
 
-                  <div class="card-badge orange">For Sales</div>
+                  <div class="card-badge orange">FOR sale</div>
 
                   <div class="banner-actions">
                     <button class="banner-actions-btn">
                       <ion-icon name="location"></ion-icon>
 
-                      <address>Belmont Gardens, Chicago</address>
+                      <address>Instambul, Turcia</address>
                     </button>
 
                     <button class="banner-actions-btn">
                       <ion-icon name="camera"></ion-icon>
 
-                      <span>4</span>
+                      <span></span>
                     </button>
 
                     <button class="banner-actions-btn">
                       <ion-icon name="film"></ion-icon>
 
-                      <span>2</span>
+                      <span></span>
                     </button>
                   </div>
                 </figure>
 
                 <div class="card-content">
                   <div class="card-price">
-                    <strong>$34,900</strong>/Month
+                    <strong>$85.900</strong>
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Modern Apartments</a>
+                    <a href="#"> Apartment modern </a>
                   </h3>
 
                   <p class="card-text">
-                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly
-                    Renovated With New Wood
+                    Apartament stil turcesc in centrul Instambulului.Amenajat de
+                    disgneri profesionisti.
                   </p>
 
                   <ul class="card-list">
                     <li class="card-item">
-                      <strong>3</strong>
+                      <strong>2</strong>
 
                       <ion-icon name="bed-outline"></ion-icon>
 
-                      <span>Bedrooms</span>
+                      <span> Dormitoare</span>
                     </li>
 
                     <li class="card-item">
-                      <strong>2</strong>
+                      <strong>2 </strong>
 
                       <ion-icon name="man-outline"></ion-icon>
 
-                      <span>Bathrooms</span>
+                      <span> Bai</span>
                     </li>
 
                     <li class="card-item">
-                      <strong>3450</strong>
+                      <strong> 550</strong>
 
                       <ion-icon name="square-outline"></ion-icon>
 
-                      <span>Square Ft</span>
+                      <span> mp2</span>
                     </li>
                   </ul>
                 </div>
@@ -195,15 +197,15 @@ function Buy() {
                 <div class="card-footer">
                   <div class="card-author">
                     <figure class="author-avatar">
-                      <img src={poza5} alt="William Seklo" class="w-100" />
+                      <img src={poza5} alt="Popovici David" class="w-100" />
                     </figure>
 
                     <div>
                       <p class="author-name">
-                        <a href="#">William Seklo</a>
+                        <a href="#">Popovici David</a>
                       </p>
 
-                      <p class="author-title">Estate Agents</p>
+                      <p class="author-title">Agent de vanzari</p>
                     </div>
                   </div>
 
@@ -235,66 +237,66 @@ function Buy() {
                     />
                   </a>
 
-                  <div class="card-badge green">For Rent</div>
+                  <div class="card-badge orange">For sale</div>
 
                   <div class="banner-actions">
                     <button class="banner-actions-btn">
                       <ion-icon name="location"></ion-icon>
 
-                      <address>Belmont Gardens, Chicago</address>
+                      <address>Amsterdam, Olanda</address>
                     </button>
 
                     <button class="banner-actions-btn">
                       <ion-icon name="camera"></ion-icon>
 
-                      <span>4</span>
+                      <span></span>
                     </button>
 
                     <button class="banner-actions-btn">
                       <ion-icon name="film"></ion-icon>
 
-                      <span>2</span>
+                      <span></span>
                     </button>
                   </div>
                 </figure>
 
                 <div class="card-content">
                   <div class="card-price">
-                    <strong>$34,900</strong>/Month
+                    <strong>$134.900</strong>
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Comfortable Apartment</a>
+                    <a href="#">One-flat house</a>
                   </h3>
 
                   <p class="card-text">
-                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly
-                    Renovated With New Wood
+                    Casa pe un singur etaj, stil abstract si futurist in zona
+                    restrasa a Amsterdamului.
                   </p>
 
                   <ul class="card-list">
                     <li class="card-item">
-                      <strong>3</strong>
+                      <strong>2</strong>
 
                       <ion-icon name="bed-outline"></ion-icon>
 
-                      <span>Bedrooms</span>
+                      <span> Dormitoare</span>
                     </li>
 
                     <li class="card-item">
-                      <strong>2</strong>
+                      <strong>2 </strong>
 
                       <ion-icon name="man-outline"></ion-icon>
 
-                      <span>Bathrooms</span>
+                      <span> Bai</span>
                     </li>
 
                     <li class="card-item">
-                      <strong>3450</strong>
+                      <strong> 650</strong>
 
                       <ion-icon name="square-outline"></ion-icon>
 
-                      <span>Square Ft</span>
+                      <span> mp2</span>
                     </li>
                   </ul>
                 </div>
@@ -302,15 +304,15 @@ function Buy() {
                 <div class="card-footer">
                   <div class="card-author">
                     <figure class="author-avatar">
-                      <img src={poza5} alt="William Seklo" class="w-100" />
+                      <img src={poza5} alt="Popovici David" class="w-100" />
                     </figure>
 
                     <div>
                       <p class="author-name">
-                        <a href="#">William Seklo</a>
+                        <a href="#">Popovici David</a>
                       </p>
 
-                      <p class="author-title">Estate Agents</p>
+                      <p class="author-title">Agent de vanzari</p>
                     </div>
                   </div>
 
@@ -342,66 +344,65 @@ function Buy() {
                     />
                   </a>
 
-                  <div class="card-badge green">For Rent</div>
+                  <div class="card-badge orange">For sale</div>
 
                   <div class="banner-actions">
                     <button class="banner-actions-btn">
                       <ion-icon name="location"></ion-icon>
 
-                      <address>Belmont Gardens, Chicago</address>
+                      <address>Londra, Regatul Unit</address>
                     </button>
 
                     <button class="banner-actions-btn">
                       <ion-icon name="camera"></ion-icon>
 
-                      <span>4</span>
+                      <span></span>
                     </button>
 
                     <button class="banner-actions-btn">
                       <ion-icon name="film"></ion-icon>
 
-                      <span>2</span>
+                      <span></span>
                     </button>
                   </div>
                 </figure>
 
                 <div class="card-content">
                   <div class="card-price">
-                    <strong>$34,900</strong>/Month
+                    <strong>$146.900</strong>
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Luxury villa in Rego Park</a>
+                    <a href="#">Casa din Kensington</a>
                   </h3>
 
                   <p class="card-text">
-                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly
-                    Renovated With New Wood
+                    Casa in stil british ,aflata in Kensington, vestul Londrei.
                   </p>
 
                   <ul class="card-list">
                     <li class="card-item">
-                      <strong>3</strong>
+                      <strong>2</strong>
 
                       <ion-icon name="bed-outline"></ion-icon>
 
-                      <span>Bedrooms</span>
+                      <span> Dormitoare</span>
                     </li>
 
                     <li class="card-item">
-                      <strong>2</strong>
+                      <strong>2 </strong>
 
                       <ion-icon name="man-outline"></ion-icon>
 
-                      <span>Bathrooms</span>
+                      <span> Bai</span>
                     </li>
 
                     <li class="card-item">
-                      <strong>3450</strong>
+                      <strong> 750</strong>
 
                       <ion-icon name="square-outline"></ion-icon>
 
-                      <span>Square Ft</span>
+                      <span> mp2</span>
                     </li>
                   </ul>
                 </div>
@@ -409,15 +410,15 @@ function Buy() {
                 <div class="card-footer">
                   <div class="card-author">
                     <figure class="author-avatar">
-                      <img src={poza5} alt="William Seklo" class="w-100" />
+                      <img src={poza5} alt="Popovici David" class="w-100" />
                     </figure>
 
                     <div>
                       <p class="author-name">
-                        <a href="#">William Seklo</a>
+                        <a href="#">Popovici David</a>
                       </p>
 
-                      <p class="author-title">Estate Agents</p>
+                      <p class="author-title">Agent de vanzari</p>
                     </div>
                   </div>
 
